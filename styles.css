@@ -22,3 +22,11 @@ button{
     width:100%;
   }
 }
+@keyframes coolness {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+button {
+  animation-name: demo;
+  animation-during: 4s;
+}
